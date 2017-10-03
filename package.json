@@ -1,0 +1,26 @@
+{
+  "name": "sistescuela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 9080 -c-1 --cors ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsalme/sistEscuela.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsalme/sistEscuela/issues"
+  },
+  "homepage": "https://github.com/dsalme/sistEscuela#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "http-server": "^0.9.0",
+    "node-gyp-install": "^2.2.0"
+  }
+}
